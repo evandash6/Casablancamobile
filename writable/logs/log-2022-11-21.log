@@ -1,0 +1,45 @@
+CRITICAL - 2022-11-21 11:10:21 --> Invalid file: administarcion/perfil.php
+#0 /Users/bruno/Documents/Sites/Casablancamobile/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administarcion/...')
+#1 /Users/bruno/Documents/Sites/Casablancamobile/system/Common.php(1097): CodeIgniter\View\View->render('administarcion/...', Array, true)
+#2 /Users/bruno/Documents/Sites/Casablancamobile/app/Controllers/Administracion.php(34): view('administarcion/...')
+#3 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(824): App\Controllers\Administracion->perfil()
+#4 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#5 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Documents/Sites/Casablancamobile/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 11:14:04 --> Invalid file: administarcion/perfil.php
+#0 /Users/bruno/Documents/Sites/Casablancamobile/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administarcion/...')
+#1 /Users/bruno/Documents/Sites/Casablancamobile/system/Common.php(1097): CodeIgniter\View\View->render('administarcion/...', Array, true)
+#2 /Users/bruno/Documents/Sites/Casablancamobile/app/Controllers/Administracion.php(34): view('administarcion/...')
+#3 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(824): App\Controllers\Administracion->perfil()
+#4 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#5 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Documents/Sites/Casablancamobile/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 11:18:27 --> Invalid file: administarcion/perfil.php
+#0 /Users/bruno/Documents/Sites/Casablancamobile/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administarcion/...')
+#1 /Users/bruno/Documents/Sites/Casablancamobile/system/Common.php(1097): CodeIgniter\View\View->render('administarcion/...', Array, true)
+#2 /Users/bruno/Documents/Sites/Casablancamobile/app/Controllers/Administracion.php(34): view('administarcion/...')
+#3 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(824): App\Controllers\Administracion->perfil()
+#4 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#5 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Documents/Sites/Casablancamobile/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 11:19:17 --> Invalid file: administarcion/perfil.php
+#0 /Users/bruno/Documents/Sites/Casablancamobile/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administarcion/...')
+#1 /Users/bruno/Documents/Sites/Casablancamobile/system/Common.php(1097): CodeIgniter\View\View->render('administarcion/...', Array, true)
+#2 /Users/bruno/Documents/Sites/Casablancamobile/app/Controllers/Administracion.php(34): view('administarcion/...')
+#3 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(824): App\Controllers\Administracion->perfil()
+#4 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#5 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Documents/Sites/Casablancamobile/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-21 11:19:25 --> Invalid file: administarcion/perfil.php
+#0 /Users/bruno/Documents/Sites/Casablancamobile/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administarcion/...')
+#1 /Users/bruno/Documents/Sites/Casablancamobile/system/Common.php(1097): CodeIgniter\View\View->render('administarcion/...', Array, true)
+#2 /Users/bruno/Documents/Sites/Casablancamobile/app/Controllers/Administracion.php(34): view('administarcion/...')
+#3 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(824): App\Controllers\Administracion->perfil()
+#4 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administracion))
+#5 /Users/bruno/Documents/Sites/Casablancamobile/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Users/bruno/Documents/Sites/Casablancamobile/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
