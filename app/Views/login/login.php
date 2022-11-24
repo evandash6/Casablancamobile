@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="form-group"><button class="btn btn-primary btn-block" type="submit" style="color: #f7f9fc;background: rgb(74,158,75);border-bottom-style: none;border-bottom-color: var(--green);">Inicio</button></div><a class="forgot" href="#" style="color: rgb(255,255,255);">¿Olvidaste tú usuario o contraseña?</a>
+            <div class="form-group"><button class="btn btn-primary btn-block" onclick="location.href='<?=base_url()?>/administracion/'" type="button" style="color: #f7f9fc;background: rgb(74,158,75);border-bottom-style: none;border-bottom-color: var(--green);">Inicio</button></div><a class="forgot" href="#" style="color: rgb(255,255,255);">¿Olvidaste tú usuario o contraseña?</a>
         </form>
     </section>
 </body>
