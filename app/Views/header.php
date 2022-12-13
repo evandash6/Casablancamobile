@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="<?=base_url()?>/frontend/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
     <script src="<?=base_url()?>/frontend/js/jquery.min.js"></script>
+    <script src="<?=base_url()?>/frontend/js/sweetalert2.js"></script>
     <!-- <link rel="stylesheet" href="assets/fonts/font-awesome.min.css"> -->
     <!-- <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css"> -->
@@ -25,6 +26,7 @@
                     <li class="nav-item"><a class="nav-link" href="<?=base_url()?>/administracion/perfil">Mi Perfil</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?=base_url()?>/administracion/clases">Clases</a></li>
                     <li class="nav-item"><a class="nav-link" href="<?=base_url()?>/administracion/contacto">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="<?=base_url()?>/login/salir">Salir</a></li>
                 </ul>
             </div>
             </div>

@@ -8,16 +8,29 @@ class Login extends Controller{
 
     function __construct() {
         $this->api = new RestClient([
-			//LOCAL
-            // 'base_url' => 'http://localhost/api/public/api',
-            //API V2 PRODUCCION
             'base_url' => 'http://10.254.250.24/public/api/',
-            'headers' => ['Ephylone'=>'mlpsa'],
+            // 'headers' => ['Ephylone'=>'mlpsa'],
             'format' => ""]);
     }
 
+    public function salir(){
+        session_start(); 
+        session_destroy();
+        unset($_SESSION);
+        header('Location: '.base_url().'/login');
+        exit;
+    }
+
     public function index(){
+        // echo "manuel";
         echo view('login/login');
+    }
+
+    public function validar(){
+        $session = session();
+        $session->set('email',$_POST['email']);
+        header('Location: '.base_url().'/administracion');
+        exit;
     }
 
     

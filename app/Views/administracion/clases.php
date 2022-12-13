@@ -10,7 +10,40 @@
         <div class="container" style="height: 90vh;"></div>
     </section>
 </main>
-<div class="row">
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <label class="text-info">Actividad:</label>
+            <select name="clases" class="form-control"><?=$actividades_opc?></select>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-12">
+            <label class="text-info">Nivel:</label>
+            <select name="niveles" class="form-control"></select>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-md-12">
+            <label class="text-info mt-2">Horarios</label>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table text-center table-striped">
+                <tr><td>Lunes</td><td> - </td><td> 9:30am</td></tr>
+                <tr><td>Martes</td><td> - </td><td> 10:30am</td></tr>
+                <tr><td>Miercoles</td><td> - </td><td> 10:00am</td></tr>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!-- <div class="row">
     <div class="col-md-12">
         <div class="accordion" id="accordionExample">
             <div class="card">
@@ -131,10 +164,38 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <script>
-    
+    var actividad = '';
+    var clase = '';
     $(document).ready(function(){
 
     })
+
+    $('body').on('change','select[name=clases]',function(){
+        let id = $(this).val();
+        actividad = $('select[name=clases] option:selected').text();
+        if(id > 0){
+            // alert(actividad)
+            api.get('<?=base_url()?>/administracion/buscar_nivel/'+actividad)
+            .done(function(data){
+                $('select[name=niveles]').html(data);
+            })
+        }
+    })
+
+    $('body').on('change','select[name=niveles]',function(){
+        let id = $(this).val();
+        clase = $('select[name=niveles] option:selected').text();
+        if(id > 0){
+            // alert(clase)
+            api.get('<?=base_url()?>/administracion/buscar_horarios/'+actividad+'/'+clase)
+            .done(function(data){
+                console.log(data)
+            })
+        }
+    })
 </script>   
+
+
+<!-- FALTA AGREGAR LAS CLASES -->
