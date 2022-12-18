@@ -29,7 +29,7 @@
                 <div class="container" style="margin-top: 40px;">
                     <div class="form-row" style="border-bottom-style: solid;border-bottom-color: #ffffff;">
                         <div class="col-1 col-md-6 align-self-center" style="text-align: center;"><i class="fa fa-user" style="font-size: 25px;color: rgba(231,231,231,0.72);width: 20px;"></i></div>
-                        <div class="col-11 col-md-6"><input class="form-control frm" type="text" required name="email" placeholder="# de Socio" style="color: rgb(210,209,209);background: rgba(247,249,252,0);border-bottom-color: rgba(255,255,255,0);" autocomplete="off"></div>
+                        <div class="col-11 col-md-6"><input class="form-control frm" type="email" required name="email" placeholder="Email" style="color: rgb(210,209,209);background: rgba(247,249,252,0);border-bottom-color: rgba(255,255,255,0);" autocomplete="off"></div>
                     </div>
                     <div class="form-row" style="border-bottom-style: solid;border-bottom-color: #ffffff;margin-top: 1rem;">
                         <div class="col-1 col-md-6 align-self-center" style="text-align: center;"><i class="fa fa-key" style="font-size: 25px;color: rgba(231,231,231,0.72);width: 20px;"></i></div>
